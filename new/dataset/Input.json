@@ -1,0 +1,16 @@
+{
+	"name": "Input",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "MySql2ADF2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "MySqlTable",
+		"schema": [],
+		"typeProperties": {
+			"tableName": "`movies_data`"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
